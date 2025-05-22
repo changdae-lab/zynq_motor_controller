@@ -79,7 +79,7 @@ module pi_velocity_controller (
             if (clk_20k_enable) begin
                 if (control_signal >= 16'sd3900 || control_signal <= -16'sd3900) begin
                     integral <= integral;
-                end else if (error_pos < 100 && error_pos > -100) begin
+                end else if (error_pos < desired_pos + 2 && error_pos > desired_pos - 2) begin
                     integral <= integral - (integral >>> 6); 
                 end else begin
                     if ((integral + error_pos) > INTEGRAL_LIMIT)
