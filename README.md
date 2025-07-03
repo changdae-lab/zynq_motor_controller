@@ -11,11 +11,11 @@ This repository implements a real-time motor controller for robotic systems usin
 The system is designed to control Maxon DC motors with incremental encoders, supporting modular, scalable motor control
 
 ## Features
-✅ Hybrid ARM(PS)-FPGA(PL) (Zynq) architecture
-✅ Low-latency, hard real-time control in FPGA
-✅ AXI4-Lite register interface for PS-PL data exchange
-✅ UART CLI for runtime gain tuning and desired position control
-✅ Fixed-point PID controller (Q format) implemented in Verilog
-✅ Overshoot detection using FSM with fuzzy gain adjustment (optional)
-✅ Quintic trajectory generation on ARM (optional)
-✅ SD card logging for experiment data
+✅ Hybrid ARM(PS)-FPGA(PL) (Zynq) architecture  
+✅ Low-latency, hard real-time control in FPGA  
+✅ AXI4-Lite register interface for PS-PL data exchange  
+✅ UART CLI for runtime gain tuning and desired position control  
+✅ Fixed-point PID controller (Q format) implemented in Verilog  
+✅ Overshoot detection using FSM with fuzzy gain adjustment (optional)  
+✅ Quintic trajectory generation on ARM (optional)  
+✅ SD card logging for experiment data  
