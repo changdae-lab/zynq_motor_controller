@@ -1,7 +1,7 @@
-#Zynq Motor Controller
+# Zynq Motor Controller
 Real-time Motor Control System using Xilinx Zynq SoC (ARM + FPGA Heterogeneous Computing)
 
-##Overview
+## Overview
 This repository implements a real-time motor controller for robotic systems using the Xilinx Zynq-7000 SoC (e.g., ZYBO Z7-20), leveraging:
 
 - ARM Cortex-A9 (PS) for high-level decision, trajectory generation, and communication (UART/ROS)
