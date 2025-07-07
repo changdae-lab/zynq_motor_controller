@@ -31,6 +31,7 @@ This project was developed to:
 
 ## Architecture
 ### FPGA Motor Controller Overall System Diagram 
-FPGA Motor Controller Overall System Diagram ![image](https://github.com/user-attachments/assets/34f19861-ce89-42bc-b78e-4aa3f590677f)
+![image](https://github.com/user-attachments/assets/83a3e31f-21b4-401d-a933-dd0cc1a0d481)
+
 
 
